@@ -9,8 +9,6 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String welcome(Model model){
-
-        model.addAttribute("tagline","Welcome Spring MVC");
-        return "welcome";
+        model.addAttribute("tagline",)
     }
 }
